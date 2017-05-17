@@ -1,6 +1,7 @@
 From jenkinsci/jnlp-slave:alpine
 
 User root
-RUN apk add --update --no-cache ssh
+RUN apk update
+RUN apk add --update --no-cache openssh
 
 User jenkins
