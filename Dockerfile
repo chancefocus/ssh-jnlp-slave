@@ -1,3 +1,3 @@
-From jenkinsci/jnlp-slave
+From jenkinsci/jnlp-slave:alpine
 
 RUN apk add --no-cache ssh
